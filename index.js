@@ -1,9 +1,11 @@
-console.log("Hello Geekster!!..");
-var n=0;
-if(n>0){
-console.log("Its a Positive number: ");
-}
-else
-{
-console.log("Negative Number");
-}
+//Constrants pro a b: 
+var a=10;
+console.log(a);
+a=200;
+console .log(a);
+
+const b=10;
+console.log(b);
+console.log("Once Crashed, Nthg after that will be executed:");
+ b=100;
+console.log(b);

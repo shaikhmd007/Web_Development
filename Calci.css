@@ -1,0 +1,27 @@
+#table-sz{
+  height: 300px;
+  width: 200px;
+}
+#dis {
+    background-color:rgb(14, 250, 33);
+    border-radius: 5px;
+    }
+h2{
+    color: black;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px; 
+}
+input{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    border-width: 0px;
+    border-style: solid;
+    background-color: rgb(24, 207, 240);
+
+}
+table{
+    background-color: white;
+    padding: 5px;
+}

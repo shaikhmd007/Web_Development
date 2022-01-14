@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+.container{
+    border: 1px solid black;
+   margin: 40px 400px 0px 300px;
+    background-color: aliceblue;
+}
+p::first-letter{
+    font-size: xx-large;
+    text-align: justify;
+}
+#border{
+    border: 1px solid black;
+    padding: auto;
+    margin:
+}

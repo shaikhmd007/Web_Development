@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functional Calculator</title>
+   <link rel="stylesheet" href="Style.css"> 
+</head>
+<body>
+   <div id="main">
+        <p id="output">00</p>
+
+        <button class="color" onclick="clrAll();">C</button>
+        <button class="color" onclick="setOperator('%');">%</button>
+        <button class="color" onclick="back();">⬅</button>
+        <button class="color" onclick="setOperator('/');">/</button>
+        <br>
+        <button onclick="concatNum('7');">7</button>
+        <button onclick="concatNum('8');">8</button>
+        <button onclick="concatNum('9');">9</button>
+        <button class="color" onclick="setOperator('*');">x</button>
+        <br>
+        <button onclick="concatNum('4');">4</button>
+        <button onclick="concatNum('5');">5</button>
+        <button onclick="concatNum('6');">6</button>
+        <button  class="color" onclick="setOperator('-');">-</button>
+        <br>
+        <button onclick="concatNum('1');">1</button>
+        <button onclick="concatNum('2');">2</button>
+        <button onclick='concatNum("3");'>3</button>
+        <button  class="color" onclick="setOperator('+');">+</button>
+        <br>
+        <button onclick="concatNum('00');">00</button>
+        <button onclick="concatNum('0');">0</button>
+        <button onclick='concatNum(".");'>.</button>
+        <button class="color" onclick="equals();">=</button>
+
+    </div>
+     <script src="Functionality.js"></script>
+</body>
+</html>

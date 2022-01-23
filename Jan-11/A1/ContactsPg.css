@@ -1,0 +1,31 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: scroll;
+  background-color: aliceblue;
+  
+}
+h2{
+  margin: 0;
+  color: blue;
+  text-align: center;
+  text-decoration: solid underline;
+}
+section{
+  justify-content: center;
+  align-items: center;
+  height:fit-content;
+  width: fit-content;
+  background-color:#ffff;
+  box-shadow:0 0 5px darkblue;
+}
+.Scroll{
+  position: sticky;
+  background-color: rgb(12, 238, 31);
+  padding: 5px;
+  top: 0px;
+  width: 200px;;
+  color: black;
+}

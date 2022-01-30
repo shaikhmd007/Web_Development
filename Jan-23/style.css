@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.main{
+    background-color: white;
+    padding: 30px;
+    width: 400px;
+    box-shadow:0 0 7px lawngreen;
+    border-radius: 5px;
+}
+.form-control{
+    margin: 10px;
+}
+.form-control input{
+    display: block;
+    width: 100%;
+    outline: none;
+    border-color: skyblue;
+    border: 1px solid blue;
+    border-radius: 4px;
+}
+button{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    color: blue;
+    background-color: lawngreen;
+}
+button:hover{
+    cursor: pointer;
+    background-color:lightgreen;
+}
+.form-control.done input{
+   border-color: lime;
+}
+.form-control.done.icon.fa-check-circle{
+    color: red;
+    visibility: visible;
+}
+.form-control.undo input{
+   border-color: red;
+   }
+.form-control.icon {
+    position: absolute;
+    top: 30px;
+    right: 9px;
+    visibility: hidden;
+}
+small{
+    color: red;
+    visibility: hidden;
+}
+.form-control.undo small{
+    visibility: visible;
+}
+.form-control.undo.icon.fa-exclamation-triangle{
+     color: red;
+     visibility: visible;
+}
